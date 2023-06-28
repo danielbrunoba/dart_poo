@@ -25,7 +25,7 @@ class Person {
   // é utilizado quando temos uma regra de negócio
   // para criação da nossa classe.
   factory Person.factory(String constructorNamed){
-    var name = constructorNamed + '_Factory';
+    var name = '${constructorNamed}_Factory';
     var person = Person.empty();
     person.name = name;
     return person;

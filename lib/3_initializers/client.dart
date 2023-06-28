@@ -1,5 +1,7 @@
 class Client {
-  String name;
-
-  Client({required this.name});
+  late final String name;
+  String? age;
+  Client({required this.name}) {
+    name = name;
+  }
 }
